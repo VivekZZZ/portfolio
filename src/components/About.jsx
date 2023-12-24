@@ -121,7 +121,7 @@ const About = () => {
                 Hire Me
               </Link>
               <a
-                href="https://drive.google.com/file/d/1Y6A8g0rgM8td5fL6_GvF-FcLokEumL67/view?usp=sharing"
+                href="https://drive.google.com/file/d/1e92n1--81KvKyg6OsOVhgkYhKoz9CyS5/view?usp=sharing"
                 download
               >
                 <button id={style.my_cv} className={style.button}>
