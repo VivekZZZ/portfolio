@@ -1,11 +1,9 @@
 import React from "react";
 import style from "./style.module.css";
 import { FaRegCopyright } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const handleContact = ()=>{
-    window.location.assign("/contact")
-  }
   return (
     <div id={style.footer}>
       <div className={style.row_1}>
@@ -14,7 +12,7 @@ const Footer = () => {
             If You want to say something <br /> <span>contact  me :</span>{" "}
           </h1>
 
-        <button className={style.contactBtn} onClick={handleContact}>Contact Me</button>
+        <Link to="/contact" className={style.contactBtn}>Contact Me</Link>
         </div>
         <div className={style.col_2}>
           <h1>

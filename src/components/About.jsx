@@ -6,7 +6,9 @@ import htmlImg from "../assets/html.webp";
 import cssImg from "../assets/css.webp";
 import jsImg from "../assets/js.webp";
 import reactImg from "../assets/react.png";
+import tcsImg from "../assets/tcs.png";
 import javaImg from "../assets/java.webp";
+import javaCodeImg from "../assets/java.png";
 import hibernateImg from "../assets/hibernate.jpg";
 import springImg from "../assets/spring.png";
 import springBoot from "../assets/spring boot.png";
@@ -16,12 +18,11 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { FaDownload } from "react-icons/fa6";
 import { MdWork } from "react-icons/md";
+import { FaSquareGithub } from "react-icons/fa6";
+import { CiRead } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const About = () => {
-  const handleHire = () => {
-    window.location.assign("/contact");
-  };
-
   const skill1 = {
     image: javaImg,
     alt: "Java Image",
@@ -73,6 +74,23 @@ const About = () => {
     name: "MySQL",
   };
 
+  const tcsProj = {
+    img: tcsImg,
+    alternate: "Image Of TCS Homepage",
+    heading: "TCS Clone",
+    desc: "The TCS Clone is a replica or duplicate created using HTML and CSS, mirroring the visual structure and styling of an existing TCS (Tata Consultancy Services) website or application",
+    live: "https://vivekzzz.github.io/TCS-Clone/",
+    code: "https://github.com/VivekZZZ/TCS-Clone",
+  };
+
+  const batchstudentapi = {
+    img: javaCodeImg,
+    heading: "Batch-student api",
+    desc: "Developed backend api for batch and student having many to many bi directional mapping using spring boot and mysql",
+    live: "https://github.com/VivekZZZ/batch-student-MTM-Mapping",
+    code: "https://github.com/VivekZZZ/batch-student-MTM-Mapping",
+  };
+
   return (
     <>
       <Navbar />
@@ -97,16 +115,16 @@ const About = () => {
               my theoretical and practical knowledge and upgrade myself.
             </p>
             <div className={style.btn_sec}>
-              <button onClick={handleHire}>
+              <Link to="/contact" className={style.button}>
                 {" "}
                 <MdWork style={{ marginRight: "5px" }} />
                 Hire Me
-              </button>
+              </Link>
               <a
                 href="https://drive.google.com/file/d/1Y6A8g0rgM8td5fL6_GvF-FcLokEumL67/view?usp=sharing"
                 download
               >
-                <button id={style.my_cv}>
+                <button id={style.my_cv} className={style.button}>
                   {" "}
                   <FaDownload style={{ marginRight: "5px" }} /> Download CV
                 </button>
@@ -133,7 +151,76 @@ const About = () => {
           <Skill data={skill9} />
           <Skill data={skill10} />
         </div>
+        <h1 id={style.viewall}>
+          {" "}
+          <div>
+            <span className={style.pipe}>|</span> <span>Projects</span>
+          </div>
+          <Link to="/project">View All</Link>
+        </h1>
+        <hr style={{ height: "5px", background: "#e0284c" }} />
+        <div className={style.work_list} style={{ paddingBottom: "30px" }}>
+          <div className={style.card}>
+            <img src={tcsProj.img} alt={tcsProj.alternate} />
+            <div className={style.card_content}>
+              <h4>{tcsProj.heading}</h4>
+              <p>{tcsProj.desc}</p>
+              <div className={style.link}>
+                <div className={style.read_more}>
+                  <FaSquareGithub style={{ marginRight: "5px" }} />
+                  <a
+                    href={tcsProj.code}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>GITHUB REPO</span>
+                  </a>
+                </div>
+                <div className={style.read_more}>
+                  <CiRead style={{ marginRight: "5px" }} />
+                  <a
+                    href={tcsProj.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>VIEW LIVE</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={style.card}>
+            <img src={batchstudentapi.img} alt={batchstudentapi.alternate} />
+            <div className={style.card_content}>
+              <h4>{batchstudentapi.heading}</h4>
+              <p>{batchstudentapi.desc}</p>
+              <div className={style.link}>
+                <div className={style.read_more}>
+                  <FaSquareGithub style={{ marginRight: "5px" }} />
+                  <a
+                    href={batchstudentapi.code}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>GITHUB REPO</span>
+                  </a>
+                </div>
+                <div className={style.read_more}>
+                  <CiRead style={{ marginRight: "5px" }} />
+                  <a
+                    href={batchstudentapi.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>VIEW CODE</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
       <Footer />
     </>
   );

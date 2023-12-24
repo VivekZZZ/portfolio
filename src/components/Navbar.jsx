@@ -18,9 +18,6 @@ const Navbar = () => {
   const handleLeave = () => {
     setExpanded(false);
   };
-  const handleContact = () => {
-    window.location.assign("/contact");
-  };
   const { pathname } = useLocation();
 
   // Define a function to check if the current path matches a specific endpoint
@@ -74,9 +71,9 @@ const Navbar = () => {
               <p className={style.email}>vivekkumar3198@gmail.com</p>
             </p>
 
-            <button className={style.contactBtn} onClick={handleContact}>
+            <Link to="/contact" className={style.contactBtn}>
               Contact Me
-            </button>
+            </Link>
           </div>
         </div>
       </div>
