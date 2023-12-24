@@ -89,13 +89,6 @@ const Project = () => {
     live: "https://vivekzzz.github.io/GoDaddy-Clone/",
     code: "https://github.com/VivekZZZ/Book_Create",
   };
-  const animalsProj = {
-    img: godaddyImg,
-    heading: "GoDaddy Clone",
-    desc: "The GoDaddy Clone is a replica or duplicate created using HTML and CSS, mirroring the visual structure and styling of an existing GoDaddy website or application",
-    live: "https://vivekzzz.github.io/GoDaddy-Clone/",
-    code: "https://github.com/VivekZZZ/animals",
-  };
   const adminbusapi = {
     img: javaImg,
     heading: "Admin-Bus api",
@@ -133,7 +126,6 @@ const Project = () => {
           <Card data={calculatorProj} />
           <Card data={shoppingListProj} />
           <Card data={bookProj} />
-          <Card data={animalsProj} />
         </div>
       </div>
       <Footer />
