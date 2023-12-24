@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8c873eaa.css",
+    "main.js": "/portfolio/static/js/main.cb493a7a.js",
+    "static/media/vivekImg.png": "/portfolio/static/media/vivekImg.967bd3a9926b2fb0ff98.png",
+    "static/media/pic-1.jpg": "/portfolio/static/media/pic-1.47d042ed008a11f29403.jpg",
+    "static/media/searchimg.png": "/portfolio/static/media/searchimg.ace2aad75592e7bf8145.png",
+    "static/media/godaddy.png": "/portfolio/static/media/godaddy.4b8dfddea2af358be050.png",
+    "static/media/slack.png": "/portfolio/static/media/slack.0a03ee32c1cf2ac7a8e5.png",
+    "static/media/tcs.png": "/portfolio/static/media/tcs.fc2eb0092b8778c0cf0b.png",
+    "static/media/todo.png": "/portfolio/static/media/todo.eccb140ae7f6296635a4.png",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.097d16bc0558232a7791.png",
+    "static/media/java.png": "/portfolio/static/media/java.c06d4d1307303079833b.png",
+    "static/media/java.webp": "/portfolio/static/media/java.3387411cde2b611e7367.webp",
+    "static/media/playlist.png": "/portfolio/static/media/playlist.dd2db730f978e0acd810.png",
+    "static/media/password.png": "/portfolio/static/media/password.cfaf0836d59a01ba2096.png",
+    "static/media/shoppinglist.png": "/portfolio/static/media/shoppinglist.ada3fe248ddb19de4efe.png",
+    "static/media/aws.png": "/portfolio/static/media/aws.7cfb1f5c177359a0bd66.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.2f2132d4838335ce808e.png",
+    "static/media/react.png": "/portfolio/static/media/react.fd373eec9017cf21b26d.png",
+    "static/media/spring boot.png": "/portfolio/static/media/spring boot.f8ed903187d23171c000.png",
+    "static/media/css.webp": "/portfolio/static/media/css.625bb8362bc2cf150c3f.webp",
+    "static/media/js.webp": "/portfolio/static/media/js.04c7d44ca24b1b143670.webp",
+    "static/media/html.webp": "/portfolio/static/media/html.cb11890fc9ca3e816d5d.webp",
+    "index.html": "/portfolio/index.html",
+    "main.8c873eaa.css.map": "/portfolio/static/css/main.8c873eaa.css.map",
+    "main.cb493a7a.js.map": "/portfolio/static/js/main.cb493a7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c873eaa.css",
+    "static/js/main.cb493a7a.js"
+  ]
+}
