@@ -12,10 +12,14 @@ const Top = () => {
       <Navbar />
       <div id={style.top}>
         <h1>
-          Hi, I am Vivek Kumar <br /> <span>Fullstack Developer</span>
+          Hi, I am Vivek Kumar <br /> <span>Java Fullstack Developer</span>
         </h1>
-        <div className={style.profileImg}>
-          <img src={profileImg} alt="profile Pic" />
+        <div className={style.image_border_1}>
+          <div className={style.image_border_2}>
+            <div className={style.image_box}>
+              <img src={profileImg} alt="Profile_Img" />
+            </div>
+          </div>
         </div>
         <span className={style.arrowDown}>
           <Link to="/about">
