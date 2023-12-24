@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dbd6b6cc.css",
-    "main.js": "/portfolio/static/js/main.8a531ddd.js",
+    "main.css": "/portfolio/static/css/main.636f0bfa.css",
+    "main.js": "/portfolio/static/js/main.da33fad8.js",
     "static/media/vivekImg.png": "/portfolio/static/media/vivekImg.967bd3a9926b2fb0ff98.png",
     "static/media/pic-1.jpg": "/portfolio/static/media/pic-1.47d042ed008a11f29403.jpg",
     "static/media/searchimg.png": "/portfolio/static/media/searchimg.ace2aad75592e7bf8145.png",
@@ -23,11 +23,11 @@
     "static/media/js.webp": "/portfolio/static/media/js.04c7d44ca24b1b143670.webp",
     "static/media/html.webp": "/portfolio/static/media/html.cb11890fc9ca3e816d5d.webp",
     "index.html": "/portfolio/index.html",
-    "main.dbd6b6cc.css.map": "/portfolio/static/css/main.dbd6b6cc.css.map",
-    "main.8a531ddd.js.map": "/portfolio/static/js/main.8a531ddd.js.map"
+    "main.636f0bfa.css.map": "/portfolio/static/css/main.636f0bfa.css.map",
+    "main.da33fad8.js.map": "/portfolio/static/js/main.da33fad8.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbd6b6cc.css",
-    "static/js/main.8a531ddd.js"
+    "static/css/main.636f0bfa.css",
+    "static/js/main.da33fad8.js"
   ]
 }
