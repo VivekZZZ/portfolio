@@ -9,7 +9,7 @@ import About from "./components/About";
 const App = () => {
   return (
     <div id="app">
-      <HashRouter basename="/portfolio">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Top />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
