@@ -2,12 +2,12 @@ import React from "react";
 import style from "./style.module.css";
 import profileImg from "../assets/vivekImg.png";
 import { Link } from "react-router-dom";
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 
 const Top = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div id={style.top}>
         <h1>
           Hi, I am Vivek Kumar <br /> <span>Java Fullstack Developer</span>
