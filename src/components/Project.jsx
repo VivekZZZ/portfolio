@@ -51,42 +51,42 @@ const Project = () => {
     img: passwordImg,
     heading: "Random Password Generator",
     desc: "This application is used to generate random password which can be further copied. It uses Html , css, js.",
-    live: "https://vivekzzz.github.io/Random-Password-Generator/",
+    live: "https://friendly-pegasus-ede228.netlify.app/",
     code: "https://github.com/VivekZZZ/Random-Password-Generator",
   };
   const searchImageProj = {
     img: searchImg,
     heading: "Image search Application",
     desc: "This application is used to search the images from external web api and displayed it here. it uses html, css, js",
-    live: "https://vivekzzz.github.io/SearchImage/",
+    live: "https://jade-maamoul-d2b0f7.netlify.app/",
     code: "https://github.com/VivekZZZ/SearchImage",
   };
   const playlistProj = {
     img: playlistImg,
     heading: "Playlist",
     desc: "This application is used to add random movie or music playlist from external web api. It uses html , css, js , react Js",
-    live: "https://vivekzzz.github.io/playlist/",
+    live: "https://fluffy-bunny-340eb2.netlify.app/",
     code: "https://github.com/VivekZZZ/playlist",
   };
   const calculatorProj = {
     img: calculatorImg,
     heading: "Calculator",
     desc: "This application is used to for arithmetic calculation having dark as well light Theme.It uses html css, Js",
-    live: "https://vivekzzz.github.io/Calculator/",
+    live: "https://grand-empanada-5e46b4.netlify.app/",
     code: "https://github.com/VivekZZZ/Calculator",
   };
   const shoppingListProj = {
     img: shoppingListImg,
     heading: "Shopping List",
     desc: "This application is used to add the shopping list items and some more functionalities.it uses html, css, js,Local storage",
-    live: "https://vivekzzz.github.io/shopping_list/",
+    live: "https://brilliant-meringue-a7a47a.netlify.app/",
     code: "https://github.com/VivekZZZ/shopping_list",
   };
   const bookProj = {
     img: bookImg,
     heading: "Todo Application",
     desc: "This is a todo application where we can add a note, edit, delete and this note takes a random image from external api",
-    live: "https://vivekzzz.github.io/GoDaddy-Clone/",
+    live: "https://regal-palmier-190bae.netlify.app/",
     code: "https://github.com/VivekZZZ/Book_Create",
   };
   const adminbusapi = {
